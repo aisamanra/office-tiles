@@ -1,5 +1,5 @@
-SVGS ::= $(wildcard raws/*.svg)
-PNGS ::= $(SVGS:.svg=.png)
+SVGS := $(wildcard raws/*.svg)
+PNGS := $(SVGS:.svg=.png)
 
 all: $(PNGS) sheet/spritesheet.png sheet/spritesheet.xml
 
